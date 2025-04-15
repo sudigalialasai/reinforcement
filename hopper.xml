@@ -1,5 +1,5 @@
 <mujoco model="hopper">
-  <compiler angle="degree" inertiafromgeom="true"/> <!-- Removed coordinate="global" -->
+  <compiler angle="degree" inertiafromgeom="true" meshdir="meshes" texturedir="textures"/>
   <default>
     <joint armature="1" damping="1" limited="true"/>
     <geom conaffinity="1" condim="1" contype="1" margin="0.001" material="geom" rgba="0.8 0.6 .4 1" solimp=".8 .8 .01" solref=".02 1"/>
